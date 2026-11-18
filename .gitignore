@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test caches
+.pytest_cache/
